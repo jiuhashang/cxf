@@ -1,0 +1,12 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  width: 1920px;
+  height: 1080px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: monoMMM-5-1;
+  color: #fff;
+}
