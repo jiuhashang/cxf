@@ -7,9 +7,9 @@
     <section class="home-section">
       <!-- 全厂总用电量 -->
       <div class="all">
-        <div>{{ totalAmount | money }}</div>
+        <!-- <div>{{ totalAmount | money }}</div>
         <div>{{ yearAmount | money }}</div>
-        <div>{{ dateAmount | money }}</div>
+        <div>{{ dateAmount | money }}</div> -->
       </div>
       <!-- 光伏发电 -->
       <div class="gffd">
@@ -25,9 +25,9 @@
       </div>
       <!-- 市电 -->
       <div class="sd">
-        <div>{{ cyUseModel.totalAmount | money }}</div>
+        <!-- <div>{{ cyUseModel.totalAmount | money }}</div>
         <div>{{ cyUseModel.yearAmount | money }}</div>
-        <div>{{ cyUseModel.dateAmount | money }}</div>
+        <div>{{ cyUseModel.dateAmount | money }}</div> -->
       </div>
 
       <!-- 锂电充电 -->
